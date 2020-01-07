@@ -1,0 +1,60 @@
+#contact form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+}
+#contact form input,
+#contact form textarea{
+    padding: .5rem 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#contact form label{
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+#contact form button{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.or{
+    font-size: 1.8rem;
+    align-self: center;
+    font-family: 'arial', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 1rem;
+}
+.or::before,
+.or::after{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1px;
+    background-color: rgba(255,255,255,.4);
+    top: calc(50% - 0.5px);
+}
+.or::before{left: -1.5rem;}
+.or::after{right: -1.3rem;}
+
+.direct-email{
+    align-self: center;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 80%;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}

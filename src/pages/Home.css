@@ -71,3 +71,125 @@
 }
 .mobile-nav ul li a:before{transform:translate(-200%, -50%);}
 .mobile-nav ul li a:after{transform:translate(100%, -50%);}
+
+
+/* iphone 5 / se */
+@media (max-height: 570px) and (max-width: 321px){
+    /* home */
+    #home .me h1{font-size: 3.6rem;}
+    #home .me p{font-size: 1.8rem;}
+    #home .mobile-nav ul li a{font-size: 2rem;}
+
+    /* about */
+    #about .paragraphs .first-paragraph h1,
+    #about .paragraphs .second-paragraph h1{font-size: 2.6rem;}
+    #about .paragraphs .first-paragraph p,
+    #about .paragraphs .second-paragraph p{font-size: 1.5rem;}
+
+    /* projects */
+    #my-projects .projects .first-project h1,
+    #my-projects .projects .second-project h1{font-size: 2.4rem;}
+    #my-projects .projects .first-project p,
+    #my-projects .projects .second-project p{font-size: 1.4rem;}
+    #my-projects .projects .first-project span,
+    #my-projects .projects .second-project span{font-size: 1.3rem;}
+    #my-projects .more-projects{font-size: 1.3rem;}
+  }
+
+
+/* tablets */
+@media (min-height: 800px) and (min-width: 810px){
+    /* home */
+    #home{height: 60vh;}
+    #home .me h1{font-size: 6.4rem;}
+    #home .me .last-name{margin: 4rem 0 6rem 0}
+    #home .me p{font-size: 2.8rem; line-height: 1.8;}
+    #home .mobile-nav ul li a{font-size: 3.4rem;}
+    #home .me .hello-caption,
+    #home .me .there-caption{font-size: 2rem;}
+    .social a i{font-size: 3rem;}
+    /* about */
+    #about .paragraphs .first-paragraph h1,
+    #about .paragraphs .second-paragraph h1{font-size: 4.2rem; padding: 2rem 0;}
+    #about .paragraphs .first-paragraph p,
+    #about .paragraphs .second-paragraph p{font-size: 2.6rem; padding: 0 1.5rem 1rem 1.5rem;}
+    #about .more-about{font-size: 2.2rem; padding-bottom: 2rem;}
+    /* all sections */
+    section header .get-back a i{font-size: 3rem;}
+    section header{font-size: 3rem;}
+    /* projects */
+    #my-projects .projects .first-project h1,
+    #my-projects .projects .second-project h1{font-size: 4.4rem; padding: 1rem 0;}
+    #my-projects .projects .first-project p,
+    #my-projects .projects .second-project p{font-size: 2.6rem; padding: 0 2rem;}
+    #my-projects .projects .first-project span,
+    #my-projects .projects .second-project span{font-size: 2rem; padding: 1rem 0;}
+    #my-projects .more-projects{font-size: 2.2rem; padding-bottom: 2rem;}
+    /* contact */
+    #contact form{width: 75%;}
+    #contact form input,
+    #contact form textarea{padding: 1rem 1.5rem; font-size: 2.2rem; margin-bottom: 1.5rem;}
+    #contact form label{font-size: 3rem; padding: 1rem 0;}
+    #contact form button{font-size: 2.8rem; padding: 1.5rem; margin-top: 2rem;}
+    #contact .or{font-size: 3rem;}
+    .direct-email{font-size: 2.3rem; margin-bottom: 3rem; line-height: 1.8;}
+}
+@media (min-height: 700px) and (min-width: 710px){
+    /* home */
+    #home .me .last-name{margin: 4rem 0 6rem 0}
+    #home .me h1{font-size: 4.4rem;}
+    #home .me p{font-size: 2.2rem; line-height: 1.8;}
+    /* about */
+    #about .paragraphs .first-paragraph h1,
+    #about .paragraphs .second-paragraph h1{font-size: 3.6rem;}
+    #about .paragraphs .first-paragraph p,
+    #about .paragraphs .second-paragraph p{font-size: 1.8rem;}
+    #about .more-about{font-size: 1.8rem;}
+    /* projects */
+    #my-projects .projects .first-project h1,
+    #my-projects .projects .second-project h1{font-size: 3.6rem;}
+    #my-projects .projects .first-project p,
+    #my-projects .projects .second-project p{font-size: 1.8rem;}
+    #my-projects .projects .first-project span,
+    #my-projects .projects .second-project span{font-size: 2rem;}
+    #my-projects .more-projects{font-size: 1.8rem;}
+}
+
+/* iPad Pro */
+@media (height: 1366px) and (min-width: 1024px){
+    /* home */
+    #home .me h1{font-size: 8rem; letter-spacing: 6px;}
+    #home .me .last-name{margin: 6rem 0 9rem 0}
+    #home .me p{font-size: 3.8rem; line-height: 1.9;}
+    #home .mobile-nav ul li a{font-size: 4.4rem;}
+    #home .me .hello-caption,
+    #home .me .there-caption{font-size: 2.6rem;}
+    .social a i{font-size: 3.5rem;}
+    /* all sections */
+    section header .get-back a i{font-size: 4rem;}
+    section header{font-size: 4rem;}
+    /* about */
+    #about .paragraphs .first-paragraph h1,
+    #about .paragraphs .second-paragraph h1{font-size: 5.2rem; padding: 2.5rem 0;}
+    #about .paragraphs .first-paragraph p,
+    #about .paragraphs .second-paragraph p{font-size: 3.6rem; padding: 0 1.5rem 1.5rem 1.5rem;}
+    #about .more-about{font-size: 3.2rem; padding-bottom: 2rem;}
+    /* projects */
+    #my-projects .projects .first-project h1,
+    #my-projects .projects .second-project h1{font-size: 6rem; padding: 2rem 0;}
+    #my-projects .projects .first-project p,
+    #my-projects .projects .second-project p{font-size: 3.6rem;}
+    #my-projects .projects .first-project span,
+    #my-projects .projects .second-project span{font-size:3rem;}
+    #my-projects .more-projects{font-size: 3rem;}
+    /* contact */
+    #contact form{width: 80%;}
+    #contact form input,
+    #contact form textarea{padding: 1rem 1.5rem; font-size: 2.6rem; margin-bottom: 1.5rem;}
+    #contact form label{font-size: 4.4rem; padding: 1rem 0;}
+    #contact form button{font-size: 4.4rem; padding: 1.5rem; margin-top: 2rem;}
+    #contact .or{font-size: 4.4rem;}
+    .direct-email{font-size: 3.8rem;}
+}
+
+
