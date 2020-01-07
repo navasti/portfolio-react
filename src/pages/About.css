@@ -1,11 +1,4 @@
-#about{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 1rem;
-    /* align-items: center; */
-}
+
 #about h1{
     font-size: 3rem; 
     text-transform: uppercase; 
@@ -15,7 +8,10 @@
 }
 #about p{font-size: 1.7rem; text-align: center; text-align: justify;}
 
+.paragraphs{padding: 0 1.5rem;}
 .first-paragraph,
-.second-paragraph{padding: 0 1rem;}
-.first-paragraph{margin-bottom: 3rem;}
+.second-paragraph{padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,.4);}
+.first-paragraph{padding-bottom: 1.5rem; border-top: 1px solid rgba(255,255,255,.4)}
 
+.more-about{text-align: center; font-size: 1.6rem; padding: 1rem;}
+.more-about span a{color: #21d2df;};

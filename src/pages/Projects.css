@@ -1,15 +1,21 @@
 .projects{
-    height: 100vh;
-    padding: 1rem;
+    padding: 0 1.5rem;
 }
-.project{
+.projects h1{
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+}
+.projects p{font-size: 1.5rem; text-align: justify; letter-spacing: 2px; line-height: 1.5;}
+.projects span{font-size: 1.4rem; margin: 1.5rem 0 1rem 0; display: block;}
+.projects span a{color: #21d2df;}
+.first-project,
+.second-project{
     text-align: center;
-    background-color: #333;
-    margin: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,.4);
     padding: 1rem 0;
 }
-.project h2{font-size: 2rem; margin-bottom: 1.5rem;}
-.project p{font-size: 1.3rem; margin-bottom: 1.5rem;}
-.project span{font-size: 1.1rem;}
-.project a{color: #bbb;}
-p{text-align: center;}
+.first-project{
+    border-top: 1px solid rgba(255,255,255,.4);
+}
+
+.more-projects{text-align: center; font-size: 1.5rem; padding: 1rem;}

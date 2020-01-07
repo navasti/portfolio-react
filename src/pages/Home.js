@@ -5,11 +5,11 @@ const Home = () => {
     return (
         <>
         <div className="social">
-                <a href="https://github.com/navasti"><i className="fab fa-github"></i></a>
-                <a href="//"><i className="far fa-envelope"></i></a>
-                <a href="https://www.instagram.com/navasti/"><i className="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/szostak-paw"><i className="fab fa-facebook"></i></a>
-            </div>
+            <a href="https://github.com/navasti"><i className="fab fa-github"></i></a>
+            <a href="//"><i className="far fa-envelope"></i></a>
+            <a href="https://www.instagram.com/navasti/"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/szostak-paw"><i className="fab fa-facebook"></i></a>
+        </div>
         <div id="home">
             <div className="me">
                 <div className="hello-caption">
