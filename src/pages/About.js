@@ -22,7 +22,7 @@ const About = () => {
         </div>
 
         <div className="more-about">
-            <span>If you want to know more about me click <Link to='about/more'>here.</Link></span>
+            <span>If you want to know more about me click <Link to='/more-about'>here.</Link></span>
         </div>
         </>
      );

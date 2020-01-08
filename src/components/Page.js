@@ -5,6 +5,7 @@ import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Home from '../pages/Home';
 import Error from '../pages/Error';
+import MoreAbout from '../pages/MoreAbout';
 
 const Content = () => {
     return ( 
@@ -12,6 +13,7 @@ const Content = () => {
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About}/>
+                <Route path="/more-about" component={MoreAbout}/>
                 <Route path="/projects" component={Projects}/>
                 <Route path="/contact" component={Contact}/>
                 <Route component={Error}/>
