@@ -1,3 +1,8 @@
+# Portfolio
+This one page portfolio was made using React library and according to the mobile first rule so this project is fully responsive. Technologies used in this project are html, css, javascript (react), react router, fontawesome icons. This project is not finished yet and I will try upgrade it according to my idea in the near future.
+
+## CRA
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
