@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Contact = () => {
+    function handleClick(e){
+        e.preventDefault();
+        alert(`It doesn't work yet. If you want to contact me please do it directly to my email.`);
+        return null;
+    };
     return ( 
         <>
         <header className="contact-header">
@@ -16,7 +21,7 @@ const Contact = () => {
             <input type="email" id="email"/>
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="3"></textarea>
-            <button>Send</button>
+            <button style={{cursor:'pointer'}}onClick={handleClick}>Send</button>
         </form>
         <div className="or">or</div>
         <div className="direct-email">
