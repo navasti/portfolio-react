@@ -25,10 +25,10 @@ const Home = () => {
             </ul>
         </nav>
         <footer id="footer">
-            <a href="https://github.com/navasti"><i className="fab fa-github"></i></a>
-            <a href="//"><i className="far fa-envelope"></i></a>
-            <a href="https://www.instagram.com/navasti/"><i className="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/szostak-paw"><i className="fab fa-facebook"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/navasti"><i className="fab fa-github"></i></a>
+            <a href="mailto:szostak_pawel@outlook.com"><i className="far fa-envelope"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/navasti/"><i className="fab fa-instagram"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/szostak-paw"><i className="fab fa-facebook"></i></a>
         </footer>
         </>
      );
