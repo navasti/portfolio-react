@@ -39,6 +39,7 @@ header{
     padding: 1.5rem;
     color: #11e7e7;
 }
+.middle-line{display: none;}
 
 /* HOME */
 #desktop-nav{display: none;}
@@ -67,7 +68,7 @@ header{
 /* HOME ENDS */
 
 /* ABOUT */
-.paragraphs{text-align: center; padding: 0 1rem;}
+.paragraphs{text-align: center; padding: 0 1rem; display: flex; flex-direction: column;}
 .paragraphs h2{font-size: 3.4rem; letter-spacing: 3px; margin-bottom: .5rem;}
 .paragraphs p{line-height: 1.4; font-size: 1.6rem; line-height: 1.4; letter-spacing: 2px; text-align: justify; padding: 0 .5rem;}
 .first-paragraph{ margin-bottom: 2.5rem;}
@@ -76,7 +77,7 @@ header{
 /* ABOUT ENDS */
 
 /* PROJECTS */
-.projects{text-align: center; padding: 0 1rem;}
+.projects{text-align: center; padding: 0 1rem; display: flex; flex-direction: column;}
 .projects h2{font-size: 3.4rem; letter-spacing: 3px; margin-bottom: .5rem;}
 .projects p{line-height: 1.4; font-size: 1.5rem; letter-spacing: 2px; text-align: justify; padding: 0 .5rem;}
 .first-project{ margin-bottom: 2.5rem;}
@@ -227,6 +228,24 @@ form button{
     #desktop-nav ul{display: flex; padding: 2rem; list-style: none;}
     #desktop-nav ul li a{font-size: 2rem; padding: 1rem; text-transform: uppercase;}
     .home-link a{color: #11e7e7;}
+    .middle-line{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1px;
+        height: 70%;
+        background-color: rgba(255,255,255,.4);
+    }
+    .middle-line::before,
+    .middle-line::after{
+        content: "";
+        position: absolute;
+        height: .5px;
+        width: 5rem;
+        background-color: rgba(255,255,255,.4);
+    }
     /* home */
     .me{width: 60%; align-self: flex-end; margin: 0;}
     .me .full-name{font-size: 4.6rem;}
@@ -234,16 +253,24 @@ form button{
     #footer a i{font-size: 2.4rem; margin: 0 2rem;}
     #footer{justify-content: center;}
     /* about */
-    .paragraphs{padding: 0 5rem;}
-    .paragraphs h2{font-size: 4.8rem;}
-    .paragraphs p{font-size: 2.4rem;}
-    .more-about{font-size: 2.2rem;}
+    .paragraphs{padding: 3rem 5rem; flex-direction: row; justify-content: space-between; height: 70%;}
+    .first-paragraph,
+    .second-paragraph{flex-basis: 48%;}
+    .second-paragraph{align-self: flex-end;}
+    .middle-line::before{top: 0; right: 0;}
+    .middle-line::after{bottom: 0; left: 0;}
+    .paragraphs h2{font-size: 4.6rem;}
+    .paragraphs p{font-size: 2rem;}
+    .more-about{font-size: 2rem;}
     /* projects */
-    .projects{padding: 0 5rem;}
-    .projects h2{font-size: 4.8rem;}
-    .projects p{font-size: 2.4rem;}
-    .projects span{font-size: 2rem; text-align: right;}
-    .more-projects{font-size: 2rem;}
+    .projects{padding: 3rem 5rem; flex-direction: row; justify-content: space-between; height: 70%;}
+    .projects h2{font-size: 4.6rem;}
+    .projects p{font-size: 1.9rem;}
+    .projects span{font-size: 1.9rem; text-align: right;}
+    .more-projects{font-size: 1.8rem;}
+    .first-project,
+    .second-project{flex-basis: 48%;}
+    .second-project{align-self: flex-end;}
     /* contact */
     form{width: 65%;}
     form label{font-size: 2.4rem;}
@@ -262,9 +289,12 @@ form button{
     .me p{font-size: 3rem;}
     #footer a i{font-size: 2.6rem;}
     /* about */
-    .paragraphs{padding: 0 10rem;}
+    .paragraphs{padding: 0 10rem; height: 60%;}
+    .paragraphs h2{font-size: 4.7rem;}
+    .paragraphs p{font-size: 2.2rem;}
+    .more-about{font-size: 2.2rem;}
     /* projects */
-    .projects{padding: 0 10rem;}
+    .projects{padding: 0 10rem; height: 60%;}
     /* contact */
     form{width: 55%;}
     form label{font-size: 2.6rem;}
@@ -284,9 +314,9 @@ form button{
     .me p{font-size: 3.8rem;}
     #footer a i{font-size: 3rem;}
     /* about */
-    .paragraphs{padding: 0 30rem;}
+    .paragraphs{padding: 0 30rem; height: 55%;}
     /* projects */
-    .projects{padding: 0 30rem;}
+    .projects{padding: 0 30rem; height: 55%;}
     /* contact */
     form{width: 40%;}
     form label{font-size: 2.8rem;}
