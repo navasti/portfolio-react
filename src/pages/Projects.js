@@ -14,15 +14,16 @@ const Projects = () => {
             <div className="first-project">
                 <h2>Shopping cart</h2>
                 <p>This is a simple store page with an efficient shopping cart. All technologies I used when creating the project are: HTML, CSS (SCSS), JavaSctipt, Git, FontAwesome Icons. The page is responsive but not intended for mobile.</p>
-                <span>If you want to check it live tap 
+                <span>If you want to check it live click 
                     <a target="_blank" rel="noopener noreferrer"  href="https://navasti.github.io/shopping-cart-js/"> here.</a>
                 </span>
             </div>
+            <div className="middle-line"></div>
             <div className="second-project">
-                <h2>This portfolio</h2>
-                <p>This one page  portfolio was made using React library and according to the mobile first rule so this project is fully responsive.</p>
-                <span>If you want to check it live tap 
-                    <a target="_blank" rel="noopener noreferrer" href="https://navasti.github.io/portfolio-react/"> here.</a>
+                <h2>Healthy website</h2>
+                <p>This project is a single page, mobile first website about topic which has recently become very popular - health. Written in html, scss, javascript (vanilla, jQuery and gsap).</p>
+                <span>If you want to check it live click 
+                    <a target="_blank" rel="noopener noreferrer" href="https://navasti.github.io/healthy-website/"> here.</a>
                 </span>
             </div>
         </div>
