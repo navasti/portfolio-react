@@ -8,7 +8,6 @@ const Home = () => {
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
-                <li className="home-link"><Link to="/">Home</Link></li>
             </ul>
         </nav>
         <div className="me">
